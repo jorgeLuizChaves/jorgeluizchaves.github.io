@@ -32,3 +32,4 @@ defaults:
       author: jorge luiz
       category: general
       post_header: true
+      comments: true

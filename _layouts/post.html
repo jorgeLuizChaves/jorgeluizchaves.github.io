@@ -36,6 +36,9 @@
                     {{ content }}
 
                 </div><!-- main-content/col -->
+                {% if page.comments %}
+                  {% include comments.html %}
+                {% endif %}
             </div> <!--/row -->
 
         </main> <!-- /container -->
