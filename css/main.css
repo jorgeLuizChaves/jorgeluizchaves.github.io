@@ -999,7 +999,7 @@ ol li {
   line-height: 24px;
   line-height: 2.4rem;
   font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 /* line 51, ../sass/partials/_sidebar.sass */
 .sidebar .site-info i {
@@ -1763,7 +1763,7 @@ form input[type=submit]:hover {
   left: 0;
   width: 100%;
   height: 500px;
-  background-image: url(../img/default-404.jpg);
+  background-image: url(../img/universe-404.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

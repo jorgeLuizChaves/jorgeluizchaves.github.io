@@ -1,0 +1,30 @@
+<footer class="single">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <img src="/img/{{ site.author_pic }}" class="user-icon " alt="user-image">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="category-list">
+                    <p>Published <span>{{ page.date | date_to_string }}</span></p>
+                    <p><a href="#">{{ page.author }}</a> in <a href="#">{{ page.category }}</a></p>
+
+                    <div class="other-catergories">
+                        <h3>Also found in</h3>
+
+                        <ul>
+                            <li><a href="#">Stories</a>,</li>
+                            <li><a href="#">Life</a>,</li>
+                            <li><a href="#">Adventures</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div><!-- end col -->
+            {% include social-share.html %}
+        </div><!-- end row -->
+    </div>
+
+    <!-- {% include last-posts.html %} -->
+    {% include js.html %}
+</footer>
