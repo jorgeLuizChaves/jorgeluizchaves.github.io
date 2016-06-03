@@ -1,0 +1,38 @@
+{% if page.image %}
+  <section class="sidebar col-md-5 col-sm-12" style="background-image: url(/img/{{ page.image }}">
+{% else %}
+  <section class="sidebar col-md-5 col-sm-12" style="background-image: url(/img/default-sidebar.jpg">
+{% endif %}
+  <span class="menu-trigger animated fadeInDown">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+  </span>
+
+  <div id="menu-target">
+      <ul>
+          <li><i class="fa fa-home"></i><a href="/index.html">Home</a></li>
+          <li><i class="fa fa-user"></i><a href="/author.html">{{ site.author | capitalize }}</a></li>
+          <li><i class="fa fa-paper-plane"></i><a href="/contact.html">Contact</a></li>
+      </ul>
+  </div>
+
+  <!-- if the user has javascript disabled they can still use the menu -->
+  <noscript>
+      <div class="no-js-menu">
+        <ul>
+            <li><i class="fa fa-home"></i><a href="/index.html">Home</a></li>
+            <li><i class="fa fa-user"></i><a href="/author.html">{{ site.author | capitalize }}</a></li>
+            <li><i class="fa fa-paper-plane"></i><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+  </noscript>
+  <!-- end no script -->
+
+  <div class="site-info">
+      <div class="primary-info">
+          <h1>{{ site.author | capitalize}}</h1>
+          <p style="font-weight: bold;">{{ site.description }}</p>
+      </div>
+  </div>
+  </section><!-- end sidebar -->

@@ -36,15 +36,11 @@ title: index
             {% for category in site.data.categories %}
             <div class="category-preview col-xs-6 col-sm-4 ">
                 <h2>{{ category.name | capitalize }}</h2>
-                <a href="category.html"><img src="img/{{ category.image }}" alt="category-image"></a>
+                <a href="{{ category.page }}"><img src="img/{{ category.image }}" alt="category-image"></a>
             </div>
             {% endfor %}
+
         </section>
       </div>
   </div>
-  <footer class="split-footer">
-      <a href="post.html">About</a>
-      <i class="link-spacer"></i>
-      <a href="post.html">Writer 2015</a>
-  </footer>
 </section><!-- main content -->

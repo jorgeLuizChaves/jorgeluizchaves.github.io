@@ -8,23 +8,11 @@
                 <div class="category-list">
                     <p>Published <span>{{ page.date | date_to_string }}</span></p>
                     <p><a href="#">{{ page.author }}</a> in <a href="#">{{ page.category }}</a></p>
-
-                    <div class="other-catergories">
-                        <h3>Also found in</h3>
-
-                        <ul>
-                            <li><a href="#">Stories</a>,</li>
-                            <li><a href="#">Life</a>,</li>
-                            <li><a href="#">Adventures</a></li>
-                        </ul>
-                    </div>
-
                 </div>
             </div><!-- end col -->
             {% include social-share.html %}
         </div><!-- end row -->
     </div>
-
     <!-- {% include last-posts.html %} -->
     {% include js.html %}
 </footer>

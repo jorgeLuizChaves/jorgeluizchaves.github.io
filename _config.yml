@@ -10,7 +10,7 @@ title: Log Jorge
 email: jorge.luizchaves@yahoo.com.br
 description: tail -f jorge.life | grep "tech" "languages" "good practices"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://127.0.0.1/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 author: jorge
@@ -31,3 +31,4 @@ defaults:
       layout: "post"
       author: jorge luiz
       category: general
+      post_header: true
