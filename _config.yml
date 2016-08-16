@@ -13,7 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-author: jorge
+author: Jorge Luiz
 author_pic: me.jpg
 
 # Build settings
