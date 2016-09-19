@@ -4,4 +4,9 @@
     "image":"code.jpg",
     "page":"/categories/coding.html",
   },
+  {
+    "name":"devops",
+    "image":"code.jpg",
+    "page":"/categories/coding.html",
+  }
 ]
